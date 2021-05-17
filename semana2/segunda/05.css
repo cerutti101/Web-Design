@@ -1,0 +1,36 @@
+body{
+border: 0px;
+margin: 0px;
+}
+h1{
+    border: 30px groove rgb(255, 0, 0);
+    border-radius: 180px;
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+    text-align: center;
+}
+div{
+height:400px;
+width: 400px;
+background-color:yellow;
+border-radius: 200px;
+margin: 1%;
+}
+
+img{
+    width: 200px;
+    height:20%;
+    border: 15px groove purple;
+    border-radius:100px;
+    margin: 1%;
+}
+.roxo{
+    background-color: blue;
+    margin: 0px;
+    
+}
+.exeimg{
+    width: auto;
+    height:200px;
+}

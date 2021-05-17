@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+
+    background: #0D2426;
+
+    font: normal 15pt Arial;
+
+}
+
+nav {
+    margin-top: 0px;
+
+    width: 100%;
+
+    display: flex;
+
+    position: fixed;
+
+    top: 0;
+
+    background-color: #80A6A6;
+
+
+
+}
+
+nav a {
+
+    color: #fff;
+
+    margin: auto 20px auto 40px;
+
+    text-decoration: none;
+
+
+}
+
+nav li {
+
+    float: left;
+
+    list-style: none;
+
+    margin-left: 20px;
+
+}
+
+.container {
+    margin-top: 80px;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+h2#começamos {
+    text-align: center;
+
+    border-top: 0px;
+
+    margin-bottom: 0px;
+}
+
+p#terminamos {
+    text-align: center;
+
+    font: normal 50pt Arial;
+
+    border-top: 0px;
+
+    margin-top: 0px;
+}
+
+section#section1 {
+    text-align: left;
+
+    background: #2A5559;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    width: 60%;
+
+    margin: auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+
+}
+
+section#section2 {
+    text-align: center;
+
+    font: normal;
+
+    background-color: #327373;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    width: 60%;
+
+    margin: auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+footer {
+    color: white;
+
+    text-align: center;
+
+    font-style: italic;
+
+    font-size: 10px;
+
+    padding: 1rem;
+    /*preenchimento de 16px pra todos os lados*/
+
+    margin-top: 1rem;
+    /*distanciamento a cima de 16px*/
+
+}
+
+/* caso queira deixar o shotter no final da pagina eternamente
+body{ background: rgb(97, 97, 211);
+    font: normal 15pt Arial;
+    position: relative
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
+*/

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b15dee14014975.563686e860373.png);
+    background-size:100% ;
+}
+div.titulo{
+    text-align: center; 
+    color: white ;
+    
+}
+div.topico{
+    border-radius: 15px;
+    background: tomato;
+    width:80% ;
+    position:static;
+    text-align: center;
+}
+ul{
+    width: 2%;
+    margin-left: 50%;
+    border-left: 0px;
+ 
+
+}
+
+h1#titulo{
+    margin-bottom: 0px;
+}
+h3#titulo{
+    margin-top: 0px;
+}
+img{
+    width: 20%;
+    height: 60%;
+}
+h5.inf{
+    text-align: right;
+}
