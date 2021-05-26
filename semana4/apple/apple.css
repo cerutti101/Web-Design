@@ -18,16 +18,17 @@ nav {
 .one {
     background-image: url(./imganes/imagenspromocionais/iphone_12_updated__jepm2xpxncuy_large.jpg);
     background-position-x: center;
-    height: 100%;
+    width: 100%;
     height: 684px;
     border-bottom: 5px solid #FFFFFF;
     text-align: center;
+    font-size: 56px;
 }
 
 .uno {
     background-image: url(./imganes/imagenspromocionais/hero_ipad_pro__gl982dtu49im_large.jpg);
     background-position-x: center;
-    height: 100%;
+    width: 100%;
     height: 684px;
     background-position-x: center;
     color: #f5f5f7;
@@ -39,7 +40,7 @@ nav {
 .iti {
     background-image: url(./imganes/imagenspromocionais/hero_imac_avail__zbofyl96mzmm_large.jpg);
     background-position-x: center;
-    height: 100%;
+    width: 100%;
     height: 684px;
     border-top: 5px solid #FFFFFF;
     border-bottom: 5px solid #FFFFFF;
@@ -47,5 +48,85 @@ nav {
 }
 
 .col-md-6 {
-    border: 5px solid black;
+    height: 624px;
+    text-align: center;
+    background-position-x: center;
+    background-size: auto;
+}
+
+.tipetext h2 {
+    padding-top: 55px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.tipetext h3 {
+    font-size: 21px;
+}
+
+.para {
+    color: #86868b;
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 0 90px;
+    line-height: 16px;
+    letter-spacing: normal;
+}
+
+#space {
+    padding-bottom: 5px;
+}
+
+.para a:visited {
+    color: #86868b;
+}
+
+.para a {
+    text-decoration: none;
+}
+
+.footgrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footgrid h3 {
+    font-size: 12px;
+    font-weight: 600px;
+    color: #1d1d1f;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footgrid ul {
+    list-style-type: none;
+}
+
+.footgrid li {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #515154;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.copy,
+.paragraph {
+    color: #86868b;
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 0 90px;
+}
+
+.paragraph a {
+    text-decoration: none;
+}
+
+.copy {
+    justify-content: space-around;
+}
+.copy a {
+    text-decoration: none;
 }
