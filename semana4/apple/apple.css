@@ -15,6 +15,10 @@ nav {
 
 }
 
+.contentmini {
+    display: none;
+}
+
 nav ul {
     color: #BFBFBF;
     text-decoration: none;
@@ -34,8 +38,18 @@ nav ul li {
 }
 
 .nmi {
+    display: flex;
     width: 100%;
     height: 44px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    font-size: 14px;
+    background: #F5F5F7;
+}
+.nmimini{
+    width: 100%;
+    height: 48px;
     text-align: center;
     text-decoration: none;
     padding-top: 12px;
@@ -46,7 +60,8 @@ nav ul li {
 a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
 
@@ -56,11 +71,10 @@ a:hover{
     /* background-position-y:bottom ; */
     background-repeat: no-repeat;
     width: 100%;
-    height: 684px;
+    height: 490px;
     text-align: center;
-    font-size: 56px;
     margin-bottom: 0px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 
 }
 
@@ -70,15 +84,17 @@ a:hover{
 }
 
 .one h3 {
-    font-size: 28px;
+    font-size: 19px;
     font-weight: 400;
 }
-.one a{
+
+.one a {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
 }
-.one h4{
+
+.one h4 {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
@@ -88,37 +104,42 @@ a:hover{
     background-image: url(./imganes/imagenspromocionais/hero_ipad_pro__gl982dtu49im_large.jpg);
     background-position-x: center;
     width: 100%;
-    height: 684px;
+    height: 490px;
     background-position-x: center;
     color: #f5f5f7;
     text-align: center;
 }
+
 .uno h2 {
     font-size: 56px;
     font-weight: 600;
 }
 
 .uno h3 {
-    font-size: 28px;
+    font-size: 19px;
     font-weight: 400;
 }
-.uno a{
+
+.uno a {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
 }
-.uno h4{
+
+.uno h4 {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
 }
+
 .iti {
     background-image: url(./imganes/imagenspromocionais/hero_imac_avail__zbofyl96mzmm_large.jpg);
     background-position-x: center;
     width: 100%;
-    height: 684px;
+    height: 490px;
     text-align: center;
 }
+
 .iti h2 {
     font-size: 56px;
     font-weight: 600;
@@ -128,12 +149,14 @@ a:hover{
     font-size: 28px;
     font-weight: 400;
 }
-.iti a{
+
+.iti a {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
 }
-.iti h4{
+
+.iti h4 {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
@@ -146,6 +169,7 @@ a:hover{
     background-size: auto;
     background-repeat: no-repeat;
 }
+
 .col-md-6 h2 {
     font-size: 40px;
     font-weight: 600;
@@ -155,18 +179,21 @@ a:hover{
     font-size: 21px;
     font-weight: 400;
 }
-.col-md-6 a{
+
+.col-md-6 a {
     font-size: 17px;
-    color:#268BEB;
+    color: #268BEB;
     font-weight: 400;
 }
-.col-md-6 h4{
+
+.col-md-6 h4 {
     font-size: 21px;
     color: rgb(0, 102, 204);
     font-weight: 400;
 }
-#ultlink{ 
-    color:#f5f5f7;    
+
+#ultlink {
+    color: #f5f5f7;
 }
 
 .tipetext h2 {
@@ -240,4 +267,298 @@ a:hover{
 
 .copy a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 540px) {
+
+.content {
+    display: none;
+}
+
+.contentmini {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    border: 0, ;
+}
+
+nav {
+    width: 540px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul {
+    color: #BFBFBF;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 70px;
+}
+#menu{
+    margin-left: 0px;
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+.nmii{
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    font-size: 14px;
+    background: #F5F5F7;
+}
+.nmi {
+    display: none;
+  
+}
+.nmimini{
+    display:on;
+    
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.one {
+    background-image: url(./imganes/imagenspromocionais/content1mini.jpg);
+    background-position-x: center;
+    background-position-y:bottom;
+    background-size:900px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 490px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.one h2 {
+    
+    padding-top:37px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.one h3 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.one a {
+    font-size: 17px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.one h4 {
+    font-size: 21px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.uno {
+    background-image: url(./imganes/imagenspromocionais/content2mini.jpg);
+    background-position-x: center;
+    background-position-y:bottom;
+    background-size:700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 490px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.uno h2 {
+    padding-top: 37px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.uno h3 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.uno a {
+    font-size: 17px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.uno h4 {
+    font-size: 21px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.iti {
+    background-image: url(./imganes/imagenspromocionais/content3mini.jpg);
+    background-position-x: center;
+    background-position-y:bottom;
+    background-size:px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 490px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.iti h2 {
+    padding-top: 37px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.iti h3 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.iti a {
+    font-size: 17px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.iti h4 {
+    font-size: 21px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+.col-md-6 {
+    height: 624px;
+    text-align: center;
+    background-position-x: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.col-md-6 h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.col-md-6 h3 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.col-md-6 a {
+    font-size: 17px;
+    color: #268BEB;
+    font-weight: 400;
+}
+
+.col-md-6 h4 {
+    font-size: 21px;
+    color: rgb(0, 102, 204);
+    font-weight: 400;
+}
+
+#ultlink {
+    color: #f5f5f7;
+}
+
+.tipetext h2 {
+    padding-top: 55px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.tipetext h3 {
+    font-size: 21px;
+}
+
+.para {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 0 90px;
+    line-height: 16px;
+    letter-spacing: normal;
+}
+
+#space {
+    padding-bottom: 5px;
+}
+
+.para a {
+    text-decoration: none;
+}
+
+.footgrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footgrid h3 {
+    font-size: 12px;
+    font-weight: 600px;
+    color: #1d1d1f;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.footgrid ul {
+    list-style-type: none;
+}
+
+.footgrid li {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #515154;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.copy,
+.paragraph {
+    color: #86868b;
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 0 90px;
+}
+
+.paragraph a {
+    text-decoration: none;
+}
+
+.copy {
+    justify-content: space-around;
+}
+
+.copy a {
+    text-decoration: none;
+}
 }
