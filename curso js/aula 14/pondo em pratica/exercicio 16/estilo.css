@@ -1,0 +1,55 @@
+body{ background: rgb(97, 97, 211);
+    font: normal 15pt Arial;
+
+}
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+text-align: left;
+background: whitesmoke;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow:5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+footer{
+color:white;
+text-align: center;
+font-style: italic;
+font-size: 10px;
+padding: 1rem; /*preenchimento de 16px pra todos os lados*/
+margin-top: 1rem; /*distanciamento a cima de 16px*/
+    
+}
+
+/* caso queira deixar o shotter no final da pagina eternamente
+body{ background: rgb(97, 97, 211);
+    font: normal 15pt Arial;
+    position: relative
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
+*/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+<link rel="stylesheet" href="idade.css">
+</head>
+<body >
+    <header>
+        <h1 id="titulo">Quem você é?</h1>
+    </header>
+    <section>
+        <div id="inf1">
+            <p> Em que ano você nasceu?: <input type="number" id="txtn1"></p>
+        <p>sexo:<input type="radio" id="masculino" name="radge">
+            <label for="masculino">Homem</label>
+            <input type="radio" id="feminino" name="radge">
+            <label for="feminino">Mulher</label></p>
+           <p><button onclick="carregar()">verificar</button></p> 
+        </div>
+
+        <div id="inf2">
+            <p id="txtresultado"></p>
+            <img src="" id="imagem">
+        </div>
+    </section>
+    <footer>
+        <P&copy>kaiocerutti</P>
+    </footer>
+    <script src="idade.js"></script>
+</body>
+</html>

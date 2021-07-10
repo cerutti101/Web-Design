@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oi pai</title>
+   <style>
+       body{
+           background-color: #00393b;
+           font: normal 20pt Arial;
+           color:whitesmoke
+           
+       }
+   </style>
+        
+  
+</head>
+<body>
+    <h1>iniciando estudos em DOM</h1>
+    <p>aqui aparementemente vai o resultado</p>
+    <p>aprendendo a usar <strong>DOM</strong> em js.</p>
+    <div id="mensagem">clica aqui seu safado</div> <!-- div corresponde a uma tag (ou seja voce classifica a mensagem, e o id (literalmenbte identifica ela pra voce chamar no js))-->
+ <script>
+     var p1= window.document.getElementsByTagName('p')[0]// traduzindo a linha de codigo(variavel, recolhendo dentro da janela de atividade, dentro do documewnto, por meio da tag (literalmente o nome da tag (classificação do texto) name dele, localizada na sequencia a partir do 0)
+        window.document.write(p1.innerHTML)// o innerHTML puxa toda a formatação da frase, logo se torna mais util que o innerText (dependendo do oque voce esta querendo fazer obvio)
+        p1.style.color="black"// voce troca a cor apenas do p1(a variavel)
+        var d=window.document.getElementById("mensagem")
+        d.style.background ='black'
+        window.document.querySelector("div#mensagem")
+    </script>
+</body>
+</html>

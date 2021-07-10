@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multa</title>
+</head>
+<body>
+    <h1>estrangeiro</h1>
+    detector de estrangeiro <input type="String" id="txtpais"> km/h
+    <input type="button" value="oque é" onclick="verificar()">
+    <div id="resultado"> 
+
+    </div>
+
+    <script>
+        function verificar(){
+            var txtp= window.document.getElementById("txtpais")
+            var res=window.document.getElementById("resultado")
+            var p=(txtp.value)
+            res.innerHTML=`<p>nascendo em  <strong>${p}km/h <Strong/><p/>`
+                if(p== brasil){ res.innerHTML=`salve seu zoeiro, voce é um dos brasileiros`}
+                else{ res.innerHTML=`<strong>ALERT!!!ALERT!!!ALERT!!!</strong> you are estranjeiro`}               
+            }
+
+    </script>
+</body>
+</html>

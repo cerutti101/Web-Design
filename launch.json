@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PrimeiroPrograma",
+            "request": "launch",
+            "mainClass": "PrimeiroPrograma",
+            "projectName": "curso js_573c1a59"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open ex010.html",
+            "file": "d:\\BACKUP LEOTEC 13-07-2019\\Desktop\\Arquivos\\kaio\\curso js\\ex010.html"
+        }
+    ]
+}

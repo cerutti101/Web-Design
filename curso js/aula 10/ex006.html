@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulinha 6</title>
+    <style>
+        div#area{
+            font: normal 20pt arial;
+            background-color: lightcoral;
+            color:black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }/*nao sei se tu percebeu, mas isso aqui é a configuração apenas da div que tem a id "Area" assim voce delimita os botoes por exemplo.*/
+    </style>/
+</head>
+<body>
+    <div id ="area">
+        interaja...
+    </div>
+    <script>
+    var area= document.getElementById("area")
+    area.addEventListener('click',clicar)
+    area.addEventListener('mouseenter',entrar)
+    area.addEventListener('mouseout',sair)
+    
+        function clicar(){
+            
+            area.innerText="cliclou ne safado"
+            area.style.background="green"
+        }
+        function entrar(){
+            area.innerText="entrou gostoso"
+
+        }
+        function sair(){
+            area.innerText="entra denovo vai"
+        }
+    </script>
+
+  
+    
+</body>
+</html>
